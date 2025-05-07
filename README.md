@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+My Project Info
+This project is built with the following technologies:
 
-## Project info
+Vite: A fast and modern build tool for frontend development.
 
-**URL**: https://lovable.dev/projects/15b926af-7f4c-4982-add0-f0ea67947aad
+TypeScript: A statically typed superset of JavaScript that adds type safety.
 
-## How can I edit this code?
+React: A JavaScript library for building user interfaces.
 
-There are several ways of editing your application.
+shadcn-ui: A component library to speed up UI development.
 
-**Use Lovable**
+Tailwind CSS: A utility-first CSS framework for custom styling.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/15b926af-7f4c-4982-add0-f0ea67947aad) and start prompting.
+How to Edit the Code
+There are several ways to edit and contribute to this project:
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Using Your Preferred IDE
+To work locally using your own IDE, follow these steps:
 
-**Use your preferred IDE**
+Step 1: Clone the Repository
+Clone the repository using the Git URL:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+bash
+Copy
+Edit
+git clone [<YOUR_GIT_URL>](https://github.com/Swayam-a/Study-Hub)
+Step 2: Navigate to the Project Directory
+bash
+Copy
+Edit
+cd Study Hub
+Step 3: Install Dependencies
+Install the necessary dependencies:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+bash
+Copy
+Edit
+npm install
+Step 4: Start the Development Server
+Start the development server with auto-reloading and an instant preview:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy
+Edit
 npm run dev
-```
+2. Editing Files Directly on GitHub
+If you prefer to edit files directly on GitHub:
 
-**Edit a file directly in GitHub**
+Navigate to the desired file(s).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Click the "Edit" button (pencil icon) at the top right of the file view.
 
-**Use GitHub Codespaces**
+Make your changes and commit them.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+3. Using GitHub Codespaces
+You can also use GitHub Codespaces to edit the code in an online development environment:
 
-## What technologies are used for this project?
+Navigate to the main page of your repository.
 
-This project is built with:
+Click the "Code" button (green button) near the top right.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Select the "Codespaces" tab.
 
-## How can I deploy this project?
+Click on "New codespace" to launch a new Codespace environment.
 
-Simply open [Lovable](https://lovable.dev/projects/15b926af-7f4c-4982-add0-f0ea67947aad) and click on Share -> Publish.
+Edit files directly within the Codespace and commit your changes once you're done.
 
-## Can I connect a custom domain to my Lovable project?
+How to Deploy the Project
+To deploy the project, you can follow the typical steps for deploying React applications. Here’s a quick overview:
 
-Yes, you can!
+Build the application:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+bash
+Copy
+Edit
+npm run build
+Deploy the build to your preferred hosting platform (e.g., Vercel, Netlify, etc.).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Connecting a Custom Domain
+If you'd like to connect a custom domain to your project:
+
+Navigate to your hosting platform's settings for domains.
+
+Follow the steps to configure and connect your custom domain.
